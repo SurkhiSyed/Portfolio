@@ -8,6 +8,7 @@ import Footer from '../components/Footer';
 function HomePage() {
     return (
         <div>
+          <Navbar/>
           <Hero/>
           <Cards/>
           <Footer/>

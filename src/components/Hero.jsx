@@ -35,9 +35,6 @@ const Hero = () => {
             <div>
                 <div className='flex justify-center py-3 my-4'>
                     <button>
-                        <Link to='https://www.instagram.com/5y3d_ss/' target='_blank' rel='noopener noreferrer'><FaInstagram size={60}/></Link>
-                    </button>
-                    <button>
                         <Link to='https://github.com/SurkhiSyed' target='_blank' rel='noopener noreferrer'><FaGithubSquare size={60} /></Link>
                     </button>
                     <button>

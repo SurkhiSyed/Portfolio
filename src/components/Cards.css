@@ -3,19 +3,6 @@
   position: relative;
 }
 
-.max-w-800px {
-  display: flex;
-  justify-content: space-around;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.card-container {
-  flex: 0 0 calc(33.333% - 1rem); /* Adjust the percentage as needed */
-  margin: 0.5rem; /* Adjust the margin as needed */
-}
-
-
 .overlay {
   position: absolute;
   top: 0;

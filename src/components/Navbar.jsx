@@ -21,7 +21,6 @@ const Navbar = () => {
               <Link to='/projects'>Projects</Link>
             </li>
             <li className='p-4'>
-              <Link to='/about'>About</Link>
             </li>
         </ul>   
         <div onClick={handleNav} className='block md:hidden'>
@@ -36,7 +35,6 @@ const Navbar = () => {
               <Link to='/projects'>Projects</Link>
             </li>
             <li className='p-4 border-b border-gray-600'>
-              <Link to='/about'>About</Link>
             </li>
         </ul>
     </div>

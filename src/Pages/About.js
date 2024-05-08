@@ -1,8 +1,13 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
 
 const About = () => {
   return (
-    <div className='text-white'>Hello World</div>
+    <div>
+      <Helmet>
+        <title>About | Syed Kaab Surkhi</title>
+      </Helmet>
+    </div>
   )
 }
 

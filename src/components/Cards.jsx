@@ -3,6 +3,7 @@ import metEmployedImg from '../Assets/maxresdefault.webp'
 import Printer from '../Assets/3D-Printer.webp'
 import unity from '../Assets/unityexploreworld.png'
 import worldtreeSweeper from '../Assets/Screenshot_2024-04-04_190807.webp'
+import dinoNFT from '../Assets/dinonft.png'
 import { Link } from 'react-router-dom'
 import './Cards.css';
 
@@ -60,6 +61,19 @@ const Cards = () => {
                 </div>
                 </div>
                 <img className='w-90 mx-auto bg-white' src={worldtreeSweeper} alt='/' />
+            </div>
+            </Link>
+            <Link to='https://github.com/SurkhiSyed/Hack' target='_blank' rel='noopener noreferrer'>
+            <div className='card-container'>
+                <div className='overlay'>
+                <div className='text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center'>
+                    <h2 className='text-xl font-bold'>DinoNFT - HawkHacks 3rd Place Winner</h2>
+                    <p className='text-l'>
+                    DinoNFT is a simple web3 dino running game, similar to that of the google offline game. It incorporates a reward system for the player based on their score by allowing them to connect their blockchain wallet to the game, and transfer tokens from the owner's wallet to theirs.
+                    </p>
+                </div>
+                </div>
+                <img className='w-90 mx-auto bg-white' src={dinoNFT} alt='/' />
             </div>
             </Link>
         </div>

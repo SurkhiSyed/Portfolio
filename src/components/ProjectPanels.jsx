@@ -4,6 +4,8 @@ import metEmployedImg from '../Assets/maxresdefault.webp'
 import Printer from '../Assets/3D-Printer.webp'
 import unity from '../Assets/unityexploreworld.png'
 import worldtreeSweeper from '../Assets/Screenshot_2024-04-04_190807.webp'
+import dinoNFT from '../Assets/dinonft.png'
+
 
 const Projects = () => {
   return (
@@ -57,7 +59,18 @@ const Projects = () => {
                 <Link to='https://github.com/SurkhiSyed/WorldTreeSweeper-Unity?tab=readme-ov-file' target='_blank' rel='noopener noreferrer'>Click Here</Link>
                 </button>
             </div>
-            
+            <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 bg-[#386e4f80]'>
+                <img className='w-80 mx-auto  bg-white rounded-lg' src={dinoNFT} alt='/'/>
+                <p className='text-center text-1xl font-bold text-white my-6'>DinoNFT - HawkHacks 3rd Place Winner</p>
+                <div className='text-center font-medium'>
+                    <p className='py-1 text-white mx-8 mt-2'>DinoNFT is a simple web3 dino running game, similar to that of the google offline game. It incorporates a reward system for the player based on their score by allowing them to connect their blockchain wallet to the game, and transfer tokens from the owner's wallet to theirs.
+                    </p>
+                </div>
+                <p></p>
+                <button className='bg-[#ffffff] w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3'>
+                <Link to='https://github.com/SurkhiSyed/Hack' target='_blank' rel='noopener noreferrer'>Click Here</Link>
+                </button>
+            </div>            
         </div>
     </div>
   )

@@ -22,7 +22,7 @@ function HomePage() {
                 <Navbar />
                 <Hero />
                 <TimeLineSection />
-                <ProjectPanels/>
+                <Cards/>
                 <Footer />
             </div>
         </div>

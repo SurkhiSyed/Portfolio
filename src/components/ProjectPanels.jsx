@@ -5,6 +5,7 @@ import Printer from '../Assets/3D-Printer.webp'
 import unity from '../Assets/unityexploreworld.png'
 import worldtreeSweeper from '../Assets/Screenshot_2024-04-04_190807.webp'
 import dinoNFT from '../Assets/dinonft.png'
+import vireel from '../Assets/Vireel.png'
 import inclusee from '../Assets/original.jpeg'
 
 
@@ -87,7 +88,7 @@ const Projects = () => {
                 </button>
             </div>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 bg-[#386e4f80]'>
-                <img className='w-80 mx-auto  bg-white rounded-lg' src={dinoNFT} alt='/'/>
+                <img className='w-80 mx-auto  bg-white rounded-lg' src={vireel} alt='/'/>
                 <p className='text-center text-1xl font-bold text-white my-6'>Vireel - Startup</p>
                 <div className='text-center font-medium'>
                     <p className='py-1 text-white mx-8 mt-2'>
@@ -96,7 +97,7 @@ const Projects = () => {
                 </div>
                 <p></p>
                 <button className='bg-[#ffffff] w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3'>
-                <Link to='https://github.com/SurkhiSyed/Hack' target='_blank' rel='noopener noreferrer'>Click Here</Link>
+                <Link to='https://github.com/SurkhiSyed/Vireel' target='_blank' rel='noopener noreferrer'>Click Here</Link>
                 </button>
             </div>            
             

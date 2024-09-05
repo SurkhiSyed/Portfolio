@@ -6,6 +6,9 @@ import worldtreeSweeper from '../Assets/Screenshot_2024-04-04_190807.webp';
 import dinoNFT from '../Assets/dinonft.png';
 import { Link } from 'react-router-dom';
 import './Cards.css';
+import inclusee from '../Assets/original.jpeg'
+import vireel from '../Assets/Vireel.png'
+
 
 const Cards = () => {
   return (
@@ -82,10 +85,24 @@ const Cards = () => {
                 <div className='text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center'>
                     <h2 className='text-xl font-bold'>Inclusee</h2>
                     <p className='text-l'>
+                    Inclusee is an accessibility addon for Adobe Express that helps designers ensure their creations are accessible to individuals with low vision, dyslexia, and other visual impairments. Incorporating real-time feedback and suggestions by analyzing colors, fonts, and layouts used in design.
                     </p>
                 </div>
                 </div>
-                <img className='w-90 mx-auto bg-white' src={dinoNFT} alt='/' />
+                <img className='w-90 mx-auto bg-white' src={inclusee} alt='/' />
+            </div>
+            </Link>
+            <Link to='https://github.com/SurkhiSyed/Vireel' target='_blank' rel='noopener noreferrer'>
+            <div className='card-container'>
+                <div className='overlay'>
+                <div className='text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center'>
+                    <h2 className='text-xl font-bold'>Vireel - Startup</h2>
+                    <p className='text-l'>
+                    Vireel is currently a news app that aggregates content from multiple APIs to deliver news in a concise and user-friendly format, allowing users to receive quick summaries tailored to their interests, save their favorite stories, share comments, and engage in discussions instead of sifting through long articles as it expands into a startup.
+                    </p>
+                </div>
+                </div>
+                <img className='w-90 mx-auto bg-white' src={vireel} alt='/' />
             </div>
             </Link>
         </div>

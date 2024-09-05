@@ -1,21 +1,20 @@
-import React from 'react'
-import { ReactTyped } from "react-typed";
+import React from 'react';
+import { ReactTyped } from 'react-typed';
 import {
     FaGithubSquare,
     FaInstagram,
     FaLinkedin,
     FaEnvelopeSquare
 } from 'react-icons/fa';
-import { Link } from 'react-router-dom'
-import videoBg from '../Assets/backVid.mp4'
+import { Link } from 'react-router-dom';
+import videoBg from '../Assets/backVid.mp4';
 import './Hero.css';
-
 
 const Hero = () => {
   return (
-    <div className='text-white'>
-        <video className='video-bg' src={videoBg} autoPlay loop muted />
-        <div className='max-w-[800] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
+    <div className='hero-container text-white'>
+        <video className='video-bg ' src={videoBg} autoPlay loop muted />
+        <div className='content'>
             <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>
                 Syed Ka Ab Surkhi
             </h1>
@@ -25,7 +24,7 @@ const Hero = () => {
                 </p>
                 <ReactTyped 
                 className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-[#00d59a]'
-                    strings={['Computer Engineer', 'Machine Learning Enthusiast', 'Web Developer', 'Project Leader']} 
+                    strings={['Computer Engineer', 'ML Enthusiast', 'Web Developer', 'Project Manager']} 
                     typeSpeed={120} 
                     backSpeed={140} 
                     loop
@@ -50,4 +49,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;

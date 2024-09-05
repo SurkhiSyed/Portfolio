@@ -1,15 +1,15 @@
-import React from 'react'
-import metEmployedImg from '../Assets/maxresdefault.webp'
-import Printer from '../Assets/3D-Printer.webp'
-import unity from '../Assets/unityexploreworld.png'
-import worldtreeSweeper from '../Assets/Screenshot_2024-04-04_190807.webp'
-import dinoNFT from '../Assets/dinonft.png'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import metEmployedImg from '../Assets/maxresdefault.webp';
+import Printer from '../Assets/3D-Printer.webp';
+import unity from '../Assets/unityexploreworld.png';
+import worldtreeSweeper from '../Assets/Screenshot_2024-04-04_190807.webp';
+import dinoNFT from '../Assets/dinonft.png';
+import { Link } from 'react-router-dom';
 import './Cards.css';
 
 const Cards = () => {
   return (
-    <div className='w-full py-[5rem] px-4 bg-black'>
+    <div className='w-full py-[5rem] px-4'>
         <div className='max-w-[800px] mx-auto grid gap-8'>
             <Link to='https://devpost.com/software/soluhacks' target='_blank' rel='noopener noreferrer'>
             <div className='card-container'>
@@ -76,9 +76,21 @@ const Cards = () => {
                 <img className='w-90 mx-auto bg-white' src={dinoNFT} alt='/' />
             </div>
             </Link>
+            <Link to='https://devpost.com/software/inclusee' target='_blank' rel='noopener noreferrer'>
+            <div className='card-container'>
+                <div className='overlay'>
+                <div className='text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center'>
+                    <h2 className='text-xl font-bold'>Inclusee</h2>
+                    <p className='text-l'>
+                    </p>
+                </div>
+                </div>
+                <img className='w-90 mx-auto bg-white' src={dinoNFT} alt='/' />
+            </div>
+            </Link>
         </div>
     </div>
   )
 }
 
-export default Cards
+export default Cards;

@@ -23,6 +23,7 @@ function HomePage() {
                 <Hero />
                 <TimeLineSection />
                 <Cards/>
+                <ProjectPanels/>
                 <Footer />
             </div>
         </div>

@@ -21,4 +21,17 @@
 
 
 
+.slick-dots li button:hover:before {
+  color: white; /* Highlight on hover */
+  opacity: 1; /* Ensure visibility on hover */
+}
 /* Rest of your styles... */
+.slick-dots li button:before {
+  color: #ccc; /* Light grey color */
+  font-size: 12px; /* Adjust size if needed */
+}
+
+.slick-dots li.slick-active button:before {
+  color: white; /* Or any other color to distinguish active dots */
+}
+

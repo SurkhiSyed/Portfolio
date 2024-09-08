@@ -35,7 +35,7 @@ const Projects = () => {
                 </div>
                 <p></p>
                 <button className='bg-[#ffffff] w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3'>
-                <Link to='https://drive.google.com/drive/folders/1s56gmrxlXBasoJM-iDi_LU_zjG3toEDf?usp=sharing' target='_blank' rel='noopener noreferrer'>Click Here</Link>
+                <Link to='https://www.linkedin.com/in/syed-kaab-surkhi/details/projects/1725677988584/single-media-viewer/?profileId=ACoAADw7DekBf3zuNXNi6JV7W3xczKhJaG8_5OA' target='_blank' rel='noopener noreferrer'>Click Here</Link>
                 </button>
             </div>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 bg-[#386e4f80]'>

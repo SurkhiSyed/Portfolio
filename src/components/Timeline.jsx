@@ -47,6 +47,17 @@ let timelineElements = [
     },
     {
         id: 5,
+        title: "Average Land Temperature Analyzer",
+        location: "Toronto, ON",
+        description: "Analyzes the average land temperatures over three centuries to provide statistical insights.",
+        buttonText: "Source Code",
+        date: "March 2024",
+        icon: "",
+        buttonLink: "https://github.com/SurkhiSyed/LandAverageTemperatures",
+        isWorkIcon: true,
+    },
+    {
+        id: 6,
         title: "DinoNFT",
         location: "Waterloo, ON",
         description: "Simple web3 dino running game with blockchain wallet integration.",
@@ -57,7 +68,7 @@ let timelineElements = [
         isWorkIcon: false,
     },
     {
-        id: 6,
+        id: 7,
         title: "Inclusee",
         location: "Toronto, ON",
         description: "Ensuring enhanced visibility for digital content viewers.",
@@ -68,7 +79,7 @@ let timelineElements = [
         isWorkIcon: false,
     },
     {
-        id: 7,
+        id: 8,
         title: "Vireel",
         location: "Remote",
         description: "Making news trendy and engaging for all audiences.",

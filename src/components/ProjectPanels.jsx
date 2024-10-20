@@ -7,6 +7,7 @@ import worldtreeSweeper from '../Assets/Screenshot_2024-04-04_190807.webp'
 import dinoNFT from '../Assets/dinonft.png'
 import vireel from '../Assets/Vireel.png'
 import inclusee from '../Assets/original.jpeg'
+import landTempAnalyze from '../Assets/30-april-BLOG.jpg'
 
 
 const Projects = () => {
@@ -98,6 +99,18 @@ const Projects = () => {
                 <p></p>
                 <button className='bg-[#ffffff] w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3'>
                 <Link to='https://github.com/SurkhiSyed/Vireel' target='_blank' rel='noopener noreferrer'>Click Here</Link>
+                </button>
+            </div>       
+            <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 bg-[#386e4f80]'>
+                <img className='w-80 mx-auto  bg-white rounded-lg' src={landTempAnalyze} alt='/'/>
+                <p className='text-center text-1xl font-bold text-white my-6'>Average Land Temperatures Analyzer</p>
+                <div className='text-center font-medium'>
+                    <p className='py-1 text-white mx-8 mt-2'>
+                    'Developed a C program that studies different average land temperatures over 3 centuries using CSV files and outputs different averages. Used GNU Plots to create different plots in respect to the outputted data to evaluate trends and report conclusions.                    </p>
+                </div>
+                <p></p>
+                <button className='bg-[#ffffff] w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3'>
+                <Link to='https://github.com/SurkhiSyed/LandAverageTemperatures' target='_blank' rel='noopener noreferrer'>Click Here</Link>
                 </button>
             </div>            
             

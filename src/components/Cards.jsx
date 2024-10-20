@@ -11,6 +11,7 @@ import './Cards.css';
 import inclusee from '../Assets/original.jpeg'
 import vireel from '../Assets/Vireel.png'
 import Slider from 'react-slick';
+import landTempAnalyze from '../Assets/30-april-BLOG.jpg'
 
 const Cards = () => {
     const settings = {
@@ -32,7 +33,8 @@ const Cards = () => {
         { img: dinoNFT, title: 'DinoNFT - HawkHacks 3rd Place Winner', desc: 'DinoNFT is a simple web3 dino running game, similar to that of the google offline game. It incorporates a reward system for the player based on their score by allowing them to connect their blockchain wallet to the game, and transfer tokens from the owner\'s wallet to theirs.', link: 'https://github.com/SurkhiSyed/Hack' },
         { img: inclusee, title: 'Inclusee', desc: 'Inclusee is an accessibility addon for Adobe Express that helps designers ensure their creations are accessible to individuals with low vision, dyslexia, and other visual impairments. Incorporating real-time feedback and suggestions by analyzing colors, fonts, and layouts used in design.', link: 'https://devpost.com/software/inclusee' },
         { img: vireel, title: 'Vireel - Startup', desc: 'Vireel is currently a news app that aggregates content from multiple APIs to deliver news in a concise and user-friendly format, allowing users to receive quick summaries tailored to their interests, save their favorite stories, share comments, and engage in discussions instead of sifting through long articles as it expands into a startup.', link: 'https://github.com/SurkhiSyed/Vireel' },
-      ];
+        { img: landTempAnalyze, title: 'Average Land Temperatures Analyzer', desc: 'Developed a C program that studies different average land temperatures over 3 centuries using CSV files and outputs different averages. Used GNU Plots to create different plots in respect to the outputted data to evaluate trends and report conclusions', link: 'https://github.com/SurkhiSyed/LandAverageTemperatures' },
+    ];
 
   return (
     <div className='w-full py-[5rem] px-4'>
